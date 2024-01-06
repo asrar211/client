@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    /* background: url("https://as2.ftcdn.net/v2/jpg/01/19/11/55/1000_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg"); */
+    height: 80vh;
+}
+
+.form{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    transform: translateX(70%);
+}
+.btn2{
+    transform: translateX(60%);
+}
+
+.btn3{
+    transform: translateX(30%);
+}
+.btn4{
+    transform: translateX(100%);
+}
+
+input{
+    border-radius: 50px;
+background: rgba(0,0,0,0.4);
+box-shadow:  20px 20px 60px rgba(0,0,0,0.4),
+             -20px -20px 60px #ffffff;
+}
+
+input::placeholder{
+    color: #ede2e2;
+}
